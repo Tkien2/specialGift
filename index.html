@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="bigMessage.css">
+    <link rel="stylesheet" href="style.css">
+    <title>???</title>
+</head>
+<body class="lightMode" id="body">
+    <div class="main" id="main">
+    </div>
+    <div id="bottomBar" class="main__bottomBar lightModeGray">
+        <div class="main__bottomBar__themeMode ">
+            <ion-icon name="moon" id="themeIcon" class="themeIcon lightModeGray2Color"></ion-icon>
+        </div>
+        <div  class="main__bottomBar__choiceBox">
+            <div class="choice1 choice lightMode" id="choice1" style="display:none"></div>
+            <div class="choice2 choice lightMode" id="choice2" style="display:none"></div>
+        </div>
+    </div>
+    <audio controls loop id="LoveForNothing" style="display:none">
+        <source src="Tkien2 - Love For Nothing.mp3">
+    </audio>
+    <audio controls loop id="TheMemoryOfYou" style="display:none">
+        <source src="Swif7 - The Memory of You.mp3">
+    </audio>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

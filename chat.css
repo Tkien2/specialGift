@@ -1,0 +1,93 @@
+:root{
+    --lightGray2: rgb(163, 173, 183);
+    --lightGray: rgb(236, 239, 241);
+    --light: white;
+    --dark: rgb(57, 57, 60);
+    --darkGray: rgb(33, 33, 35);
+    --darkGray2: rgb(18, 18, 19);
+    --pink: rgb(219, 182, 211);
+    --pinkGray: rgb(255, 170, 220);
+    --pinkGray2: rgb(255, 141, 194);
+    --blue: rgb(219, 228, 249);
+    --blueGray: rgb(185, 213, 255);
+    --blueGray2: rgb(137, 192, 255);
+}
+.smoothTransition{
+    transition-duration: 0.4s;
+}
+.avt{
+    max-width: 100px;
+    border-radius: 100px;
+}
+.choice, .main__respond{
+    transition-duration: 0.1s;
+}
+.main, .main__respond, .info, .main__bottomBar{
+    display: flex;
+}
+.main{
+    flex-direction: column;
+    max-height: 80vh;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+    scroll-behavior: smooth;
+}
+.main__respond--user{
+    flex-direction: row-reverse;
+    position: relative;
+}
+.main__respond--tkien{
+}
+.main__respond{
+    margin: 8px 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.main__respond__name, .main__respond__resp{
+    padding: 5px 10px;
+}
+.main__respond__name{
+    font-size: 20px;
+    color: rgb(75, 171, 255);
+}
+.main__respond__resp{
+    max-width: 70vw;
+}
+.info{
+    flex-direction: column;
+}
+.info--user{
+    align-items: flex-end;
+}
+.main__bottomBar{
+    position: fixed;
+    bottom: 0;
+    min-width: 100vw;
+    justify-content: center;
+    min-height: 20vh;
+    align-items: center;
+    box-shadow: var(--darkGray) 0 10px 20px;
+}
+.choice{
+    padding: 10px 40px;
+    margin: 10px;
+    width: 400px;
+    max-width: 40vw;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.choice:hover{
+    background-color: rgb(67, 159, 239);
+    color: var(--light);
+    font-size: 18px;
+}
+.themeIcon{
+    font-size: 30px;
+    cursor: pointer;
+}
+.main__bottomBar__themeMode{
+    position: fixed;
+    bottom: calc(10vh - 34px/2);
+    left: 20px;
+}

@@ -1,0 +1,12 @@
+#bigMessage{
+    font-size: 65px;
+    font-weight: bold;
+    color: rgb(238, 109, 109);
+    animation-name: Appear;
+    animation-timing-function: ease-out;
+    animation-duration: 0.2s;
+}
+@keyframes Appear{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

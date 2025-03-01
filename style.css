@@ -1,0 +1,123 @@
+:root{
+    --lightGray2: rgb(163, 173, 183);
+    --lightGray: rgb(236, 239, 241);
+    --light: white;
+    --dark: rgb(96, 96, 100);
+    --darkGray: rgb(45, 45, 48);
+    --darkGray2: rgb(28, 28, 31);
+    --pinkGray2: rgb(255, 248, 253);
+    --pinkGray: rgb(255, 236, 247);
+    --pink: rgb(255, 201, 225);
+    --redGray2: rgb(255, 247, 247);
+    --redGray: rgb(255, 228, 228);
+    --red: rgb(255, 198, 198);
+    --blueGray2: rgb(246, 249, 255);
+    --blueGray: rgb(224, 234, 250);
+    --blue: rgb(187, 216, 249);
+    --greenGray2: rgb(247, 255, 249);
+    --greenGray: rgb(223, 255, 232);
+    --green: rgb(178, 253, 203);
+}
+/* --------------------- */
+.lightMode{
+    background-color: var(--light);
+    color: var(--dark);
+}
+.lightModeGray{
+    background-color: var(--lightGray);
+}
+.lightModeGray2{
+    background-color: var(--lightGray2);
+}
+.lightModeGray2Color{
+    color: var(--lightGray2);
+}
+/* -- */
+.darkMode{
+    background-color: var(--dark);
+    color: var(--light);
+}
+.darkModeGray{
+    background-color: var(--darkGray);
+}
+.darkModeGray2{
+    background-color: var(--darkGray2);
+}
+.darkModeGray2Color{
+    color: var(--dark);
+}
+/* -- */
+.pinkMode{
+    background-color: var(--pink);
+    color: var(--dark);
+}
+.pinkModeGray{
+    background-color: var(--pinkGray);
+}
+.pinkModeGray2{
+    background-color: var(--pinkGray2);
+}
+.pinkModeGray2Color{
+    color: var(--pinkGray2);
+}
+/* -- */
+.redMode{
+    background-color: var(--red);
+    color: var(--dark);
+}
+.redModeGray{
+    background-color: var(--redGray);
+}
+.redModeGray2{
+    background-color: var(--redGray2);
+}
+.redModeGray2Color{
+    color: var(--redGray2);
+}
+/* == */
+.blueMode{
+    background-color: var(--blue);
+    color: var(--dark);
+}
+.blueModeGray{
+    background-color: var(--blueGray);
+}
+.blueModeGray2{
+    background-color: var(--blueGray2);
+}
+.blueModeGray2Color{
+    color: var(--blueGray2);
+}
+/* == */
+.greenMode{
+    background-color: var(--green);
+    color: var(--dark);
+}
+.greenModeGray{
+    background-color: var(--greenGray);
+}
+.greenModeGray2{
+    background-color: var(--greenGray2);
+}
+.greenModeGray2Color{
+    color: var(--greenGray2);
+}
+/* ----------------------- */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--lightGray2);
+    border-radius: 10px;
+}
+.avt{
+    max-width: 100px;
+    border-radius: 10px;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Lexend";
+}
