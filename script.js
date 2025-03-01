@@ -126,12 +126,12 @@ function surprisePart(){
     setTimeout(()=>{
         TheMemoryOfYou.play()
         TheMemoryOfYou.volume = 0.5
-        setTimeout(()=>{
+        setTimeout(()=>{ //đm callback hell hay gì. Đuma bất đồng bộ
             changeBackgroundColor("redGray")
             setTimeout(()=>{
                 showListOfBigMessage(["Tui", "Thấy", "Rất", "Lmao"], 600)
                 setTimeout(()=>{
-                    
+
                 },1000)
             },1000)
         },3000)
