@@ -124,12 +124,15 @@ function surprisePart(){
     smoothTrans()
     LoveForNothing.pause()
     setTimeout(()=>{
-        // TheMemoryOfYou.play()
+        TheMemoryOfYou.play()
         TheMemoryOfYou.volume = 0.5
         setTimeout(()=>{
             changeBackgroundColor("redGray")
             setTimeout(()=>{
                 showListOfBigMessage(["Tui", "Thấy", "Rất", "Lmao"], 600)
+                setTimeout(()=>{
+                    
+                },1000)
             },1000)
         },3000)
     },1300)
@@ -222,6 +225,12 @@ themeIcon.addEventListener("click", ()=>{
     changeTheme()
 })
 // ----------------Password-------------
+document.addEventListener("keydown", (event)=>{
+    if(event.key == "F12" || event.ctrlKey && event.shiftKey && event.key == "I"){
+        event.preventDefault()
+        alert("Eyyy, làm gì đó!")
+    }
+})
 function encryptPassword(password){
     let encryptedPassword = 39
     salt = "YouAreSpecial"
@@ -232,8 +241,7 @@ function encryptPassword(password){
     for (let i = 0; i<salt.length; i++){
         encryptedSalt += (encryptedSalt<<1) - encryptedSalt + parseInt(salt.charCodeAt(i),10)
     }
-    console.log(encryptedPassword)
-    let encryptedPassword2 = btoa(encryptedPassword^encryptedSalt)
+    let encryptedPassword2 = (encryptedPassword>>5)^(encryptedPassword^39)
     return encryptedPassword2
 }
 /*
