@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="chat.css">
-    <link rel="stylesheet" href="bigMessage.css">
-    <link rel="stylesheet" href="style.css">
-    <title>???</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="chat.css">
+        <link rel="stylesheet" href="name.css">
+        <link rel="stylesheet" href="bigMessage.css">
+        <link rel="stylesheet" href="style.css">
+        <title>???</title>
+        <script type="module" src="script.js"></script>
+        <script type="module" src="notification.js"></script>
+        <script type="module" src="encryptPassword.js"></script>
+        <script type="module" src="theme.js"></script>
+        <script type="module" src="story.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body class="lightMode" id="body">
+    <div id="notificationBox">
+        <!-- alert-circle và checkmark -->
+        <ion-icon id="icon" name="alert-circle"></ion-icon>
+        <div id="notificationMessage">Mật khẩu sai!?</div>
+    </div>
     <div class="main" id="main">
+        <div id="typeNameSpace">
+            <div id="typeNameBox">
+                <input id="inputName" class="lightMode" placeholder="Mật khẩu...">
+                <div id="enter">Enter</div>
+            </div>
+        </div>
     </div>
     <div id="bottomBar" class="main__bottomBar lightModeGray">
         <div class="main__bottomBar__themeMode ">
@@ -29,8 +48,5 @@
     <audio controls loop id="TheMemoryOfYou" style="display:none">
         <source src="Swif7 - The Memory of You.mp3">
     </audio>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="script.js"></script>
 </body>
 </html>

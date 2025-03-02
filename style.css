@@ -1,4 +1,6 @@
 :root{
+    --fail: rgb(255, 70, 70);
+    --success: rgb(39, 227, 99);
     --lightGray2: rgb(163, 173, 183);
     --lightGray: rgb(236, 239, 241);
     --light: white;
@@ -120,4 +122,26 @@ body{
     margin: 0;
     min-height: 100vh;
     font-family: "Lexend";
+}
+#notificationBox{
+    display: none;
+    align-items: center;
+    border-right: 5px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.223);
+    width: 300px;
+    max-width: 40vw;
+    padding: 15px;
+    position: fixed;
+    top: 20px;
+    border-radius: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* Căn giữa được fixed div rồi, quá đã 😭😭😭 */
+}
+#icon{
+    font-size: 30px;
+}
+#notificationMessage{
+    font-size: 18px;
+    padding-left: 10px;
 }

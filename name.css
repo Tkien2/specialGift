@@ -1,0 +1,40 @@
+#inputName{
+    max-width: 40vw;
+    font-family: "Lexend";
+    font-weight: 300;
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 20px 0 0 20px;
+    border: 0;
+    box-shadow: rgba(134, 200, 255, 0.743) 0 0 10px;
+    outline: none;
+    color: rgb(70, 172, 255);
+    text-shadow: rgba(54, 201, 255, 0.692) 0 0 4px;
+    height: 20px
+}
+#typeNameBox{
+    display: flex;
+    align-items: baseline;
+}
+#enter{
+    font-size: 20px;
+    background-color: rgb(70, 172, 255);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    min-height: 36px;
+    text-align: center;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    align-items: center;
+}
+#typeNameSpace{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+::placeholder{
+    color: rgb(90, 181, 255);
+}
