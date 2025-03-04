@@ -7,6 +7,7 @@ export function darkMode(){
         lightModeElements[i].className = lightModeElements[i].className.replace("light", "dark")
     }
     document.getElementById("body").style.backgroundColor="var(--darkGray2)"
+    document.getElementById("notificationBox").style.backgroundColor="var(--darkGray)"
 }
 export function lightMode(){
     let darkModeElements = document.querySelectorAll(".darkMode, .darkModeGray, .darkModeGray2, .darkModeGray2Color")    

@@ -1,4 +1,5 @@
 import { smoothTrans, isDarkModeOn, themeLock, changeTheme, changeBackgroundColor, pinkMode, blueMode, redMode, greenMode } from "./theme.js";
+import { name } from "./script.js";
 let messageID = 0
 // Đm xử lí bất đồng bộ, ghét vc
 function getRespondFile(fileName, targetID){
@@ -20,6 +21,11 @@ async function sendMessage(content, user){
                 changeTheme()
             } else{
                 blueMode()
+            }
+            if(user == "User"){
+                const userName = document.getElementById("newUserName")
+                userName.innerHTML = name
+                userName.removeAttribute("id")
             }
             messageID++
             const message = mess
@@ -115,28 +121,33 @@ export async function runStory(){
     Tkien2Respond(2000, "Chào bạn", respondsList[0][0], respondsList[0][1])
 }
 /* -----------The Memory Of You----------- */
-function surprisePart(){
-    smoothTrans()
-    LoveForNothing.pause()
-    setTimeout(()=>{
-        TheMemoryOfYou.play()
-        TheMemoryOfYou.volume = 0.5
-        setTimeout(()=>{ //đm callback hell hay gì. Đuma bất đồng bộ
-            changeBackgroundColor("redGray")
-            setTimeout(()=>{
-                showListOfBigMessage(["Tui", "Thấy", "Rất", "Lmao"], 600)
-                setTimeout(()=>{
-
-                },1000)
-            },1000)
-        },3000)
-    },1300)
-    
+// tới lúc xử lí callback hell rồi
+function delay(ms){
+    return new Promise((resolve)=>{
+        setTimeout(resolve,ms)
+    })
+}
+export async function surprisePart(){
     const main = document.getElementById("main")
     const bottomBar = document.getElementById("bottomBar")
     changeBackgroundColor("darkGray2")
     bottomBar.remove()
     main.remove()
+    smoothTrans()
+    LoveForNothing.pause()
+    await delay(1300) //callback hell tuổi lo-...
+    TheMemoryOfYou.play()
+    TheMemoryOfYou.volume = 0.5
+    await delay(2000)
+    changeBackgroundColor("redGray")
+    await delay(1000)
+    await showListOfBigMessage(["Tui", "Quý", "Bà", "Lắm", "Á", name], 600)
+    await delay(1000)
+    changeBackgroundColor("darkGray2")
+    await delay(2000)
+    document.getElementById("bigMessage").remove()
+    showCard()
+
 }
 function bodyFlex(){
     body.style.display = "flex"
@@ -154,9 +165,18 @@ function showBigMessage(message){
     body.appendChild(messageElement)
 }
 function showListOfBigMessage(messageList, time){
-    for(let i = 0; i < messageList.length; i++){
-        setTimeout(()=>{
-            showBigMessage(messageList[i])
-        },((i+1)*time))
-    }
+    return new Promise((resolve)=>{
+        for(let i = 0; i < messageList.length; i++){
+            setTimeout(()=>{
+                showBigMessage(messageList[i])
+                if(i == messageList.length - 1){
+                    resolve()
+                }
+            },((i+1)*time))
+        }
+    })
+}
+function showCard(){
+    document.getElementById("cardBox").style.display = "flex"
+    document.getElementById("card").classList.add("appear")
 }

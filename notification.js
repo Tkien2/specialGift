@@ -17,5 +17,6 @@ export function showNotification(message, typeOfNotification){ //fail || success
     }
     setTimeout(()=>{
         nBox.style.display = "none"
+        icon.name = ""
     },2500)
 }

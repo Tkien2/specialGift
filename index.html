@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="chat.css">
         <link rel="stylesheet" href="name.css">
+        <link rel="stylesheet" href="card.css">
         <link rel="stylesheet" href="bigMessage.css">
         <link rel="stylesheet" href="style.css">
         <title>???</title>
@@ -20,9 +21,19 @@
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body class="lightMode" id="body">
-    <div id="notificationBox">
+    <div class="cardBox" id="cardBox">
+        <div id="card">
+            <h1 class="title">Big Title</h1>
+            <div class="cardMessage">Lorem ipsum dolor sit amet.<br><br> consectetur adipiscing elit. In euismod est nibh, tincidunt viverra sapien fringilla ut. In rutrum tortor vitae lorem iaculis, at mollis nibh vehicula. Integer consectetur eget sapien non eleifend. Maecenas lorem felis, pharetra quis libero nec, lacinia porta neque. Suspendisse sapien ex, congue ac laoreet a, porttitor et sem. Etiam malesuada sodales ornare. Suspendisse lacinia ullamcorper purus. Nulla vehicula placerat rutrum. Maecenas lacinia ante sit amet nibh lacinia fringilla ac vel neque. Maecenas et leo eros.</div>
+            <div class="author">
+                <img class="avtCard" src="Tkien2.png">
+                <div class="name">Tkien2</div>
+            </div>
+        </div>
+    </div>
+    <div class="lightMode" id="notificationBox">
         <!-- alert-circle và checkmark -->
-        <ion-icon id="icon" name="alert-circle"></ion-icon>
+        <ion-icon id="icon" name=""></ion-icon>
         <div id="notificationMessage">Mật khẩu sai!?</div>
     </div>
     <div class="main" id="main">
