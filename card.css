@@ -45,7 +45,7 @@
 }
 .appear{
     position: relative;
-    animation: Appear 0.5 ease-out;
+    animation: Appear 0.5s ease-out;
 }
 @keyframes Appear{
     from{

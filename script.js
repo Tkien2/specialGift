@@ -8,28 +8,33 @@ document.addEventListener("keydown", (event)=>{
     }
 })
 let password
-export let name
+export let passwordListIndex
+export let name = ""
 const passwordEnterButton = document.getElementById("enter")
 const inputPassword = document.getElementById("inputName")
 passwordEnterButton.addEventListener("click", ()=>{
-    if (passwordList.includes(encryptPassword2(inputPassword.value))){
+    if (passwordList.some((element) => {return element.pass === encryptPassword2(inputPassword.value)})){
         password = inputPassword.value
         setName(password)
         document.getElementById("typeNameSpace").remove() //xoá nhập pwd
         runStory()
-        if(encryptPassword2(password) == passwordList[0]){
-            showNotification(`Chào ${name} nha`, "success")
-        } else if(encryptPassword2(password) == passwordList[1]){
-            showNotification(`Chào ${name} nha`, "success")
-        }
+        showNotification(`Xin chào ${passwordList[passwordListIndex].name}`, "success")
     } else{
         showNotification("Sai mật khẩu!", "fail")
     }
 })
 function setName(password){
-    if(encryptPassword2(password) == passwordList[0]){
-        name = "Thư"
-    } else if(encryptPassword2(password) == passwordList[1]){
-        name = "Trang"
+    let isStop = false
+    let i = 0
+    while(!isStop){
+        if(i<passwordList.length){
+            if(passwordList[i].pass == encryptPassword2(password)){
+                name = passwordList[i].name
+                passwordListIndex = i
+            }
+        }else{
+            isStop = true
+        }
+        i++
     }
 }

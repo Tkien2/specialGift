@@ -1,3 +1,4 @@
+import { isDarkModeOn } from "./theme.js"
 export function showNotification(message, typeOfNotification){ //fail || success
     const nMessage= document.getElementById("notificationMessage")
     const icon = document.getElementById("icon")
@@ -14,6 +15,11 @@ export function showNotification(message, typeOfNotification){ //fail || success
         icon.style.color = "var(--success)"
         nMessage.style.color = "var(--success)"
         nBox.style.borderRightColor = "var(--success)"
+    }
+    if(isDarkModeOn){
+        nBox.style.backgroundColor = "var(--darkGray2)"
+    } else{
+        nBox.style.backgroundColor = "var(--light)"
     }
     setTimeout(()=>{
         nBox.style.display = "none"

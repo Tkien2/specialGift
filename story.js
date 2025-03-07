@@ -118,7 +118,7 @@ const body = document.getElementById("body")
 export async function runStory(){
     LoveForNothing.play()
     hideChoices()
-    Tkien2Respond(2000, "Chào bạn", respondsList[0][0], respondsList[0][1])
+    Tkien2Respond(2000, `${name} nè đúng không?`, respondsList[0][0], respondsList[0][1])
 }
 /* -----------The Memory Of You----------- */
 // tới lúc xử lí callback hell rồi
