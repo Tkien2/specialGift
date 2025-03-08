@@ -41,7 +41,7 @@ export const passwordList = [
     pass: "MTU1MzY=",
     name: "Trang",
     color: "blue",
-    content: "Gửi Trang<br><br>Mấy hôm trước hỏi thích màu gì không nói nên tui chọn đại một màu :)<br>Giữ đúng yêu cầu của bà là không mua đồ luôn nha, nhma không ăn được như bà nói thôi. Tui chúc bà ngày càng học giỏi, đậu tin học MOS, với lại ngày nào cũng vui vẻ, không quạu :)<br>Web này tui định là để ở đây hoài luôn á, không có định đóng web đâu. Nên là mấy chục năm sau quay lại web này thì web vẫn còn nha, hehe.<br><br>Chúc Trang 8/3 vui.",
+    content: "Gửi Trang<br><br>Mấy hôm trước hỏi thích màu gì không nói nên tui chọn đại một màu :)<br>Giữ đúng yêu cầu của bà là không mua đồ luôn nha, nhma không ăn được như bà nói thôi. Tui chúc bà ngày càng học giỏi, đậu tin học MOS, với lại ngày nào cũng vui vẻ, không quạu. <br>Web này tui định là để ở đây hoài luôn á, không có định đóng web đâu. Nên là mấy chục năm sau quay lại web này thì web vẫn còn nha, hehe.<br><br>Chúc Trang 8/3 vui vẻ.",
 },
 {
     pass: "MTQzNjY=",

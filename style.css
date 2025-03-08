@@ -156,6 +156,9 @@ body{
     #card{
         padding: 20px;
     }
+    .cardBox{
+        min-width: 85vw;
+    }
     .avtCard{
         width: 60px;
     }
