@@ -62,11 +62,3 @@ export const passwordList = [
     content: "Gửi B.Anh<br><br>He, nay 8/3 đúng không? Chuyện mua bút đen tính sau đi, tui lười quá. Lười mua bút nhưng siêng làm web nên tui tặng bà cái này. Tui chúc bà ngày càng bớt khờ Toán, Lý, Hoá, luôn vui vẻ và gặp nhiều may mắn =)<br>Thật ra web này tui không xoá đâu, để ở đây hoài luôn, tới lúc chết nhớ link vẫn mở được. Hehe...<br><br>Chúc B.Anh 8/3 vui vẻ"
 }
 ]
-/*
-38. PuqyFtgk
-39. UbnatGuh
-41. IwjnIgpcv
-1. CvdrApb
-11. RtlSly
-3. EdrDqk
-*/
