@@ -29,7 +29,7 @@ export const passwordList = [
     pass: "MTQ2MzY=",
     name: "Thuý",
     color: "pink",
-    content: "Gửi Thuý<br><br>Nay 8/3 rồi nhỉ, do tui cũng không biết nên tặng cái gì nên quyết định làm web nho nhỏ như này để tặng. Tui chúc bà ngày càng học giỏi nè, bớt overthinking lại tí, nghĩ nhiều quá không tốt đâu :><br>Cái thiệp này tui lấy từ màu yêu thích của bà hôm qua bà nói á, nhưng mà giống y hệt thì lên web nó không hợp với màu chữ, nên tui đổi màu tí :P<br>Với lại web này tui định là để ở đây hoài luôn á, không có định đóng. Nên là mấy chục năm sau quay lại web này thì web vẫn còn nha, hehe.<br><br>Chúc Thuý 8/3 vui vẻ",
+    content: "Gửi Thuý<br><br>Nay 8/3 rồi nhỉ, do tui cũng không biết nên tặng cái gì nên quyết định làm web nho nhỏ như này để tặng. Tui chúc bà ngày càng học giỏi nè, bớt overthinking lại tí, nghĩ nhiều quá không tốt đâu :><br>Cái thiệp này tui lấy từ màu yêu thích hôm qua bà nói á, nhưng mà tui đổi màu tí :P<br>Web này tui định là để ở đây hoài luôn á, không có định đóng. Nên là mấy chục năm sau quay lại web này thì web vẫn còn nha, hehe.<br><br>Chúc Thuý 8/3 vui vẻ",
 },
 {
     pass: "MTM4MzA=",
