@@ -4,7 +4,7 @@
 Thật ra thì web này tui làm để tặng bạn bè vào ngày 8/3. Cũng không có gì đặc biệt lắm.
 Mọi chuyện bắt đầu vào ngày **14/2/2025**, lúc đó đang xem Youtube bình thường thôi, thì tự nhiên chợt nhớ ra về lời hứa làm web tặng 8/3. Thế là ngay trong hôm đó bắt tay vào làm luôn.
 
-Chắc là bạn xem video rồi đúng không? Nhìn thì đơn giản vậy thôi chứ thật ra tui gặp nhiều khó khăn trong lúc làm lắm, sửa lỗi, sửa bug, xử lí bất đồng bộ, module hóa mớ code rác...
+Nhìn thì đơn giản vậy thôi chứ thật ra tui gặp nhiều khó khăn trong lúc làm lắm, sửa lỗi, sửa bug, xử lí bất đồng bộ, module hóa mớ code rác... :V
 
 Trong lúc làm thì tui cũng gặp kha khá vấn đề về thời gian, nên mỗi ngày làm được một tí. Có lúc tui nghĩ nhiều quá muốn chỉ nằm ngủ một giấc thôi á=)))
 
@@ -36,6 +36,7 @@ Nhìn cái "kim tự tháp" ngán thật :>
 # Nhạc
 1. Tkien2 - Love For Nothing
 2. Swif7 - The Memory Of You
+
 Nhạc đầu tiên chill chill là do tui làm bằng Fl Studio Mobile, do lúc đó suy quá nên làm đại vậy mà cũng ổn phết. Ban đầu làm cho vui thôi, nhma thấy web chưa có nhạc nền chill nên cho vô luôn, hehe. Tổng cộng là dành 4h để làm, không nhiều.
 
 Bài thứ 2 thì tui nghe gần đây thôi, thấy hay nên cho vào =))))
