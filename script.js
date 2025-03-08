@@ -12,10 +12,10 @@ export let passwordListIndex
 export let name = ""
 const passwordEnterButton = document.getElementById("enter")
 const inputPassword = document.getElementById("inputName")
-passwordEnterButton.addEventListener("click", ()=>{
+passwordEnterButton.addEventListener("click", async ()=>{
     if (passwordList.some((element) => {return element.pass === encryptPassword2(inputPassword.value)})){
         password = inputPassword.value
-        setName(password)
+        await setName(password)
         document.getElementById("typeNameSpace").remove() //xoá nhập pwd
         runStory()
         showNotification(`Xin chào ${passwordList[passwordListIndex].name}`, "success")
@@ -24,17 +24,20 @@ passwordEnterButton.addEventListener("click", ()=>{
     }
 })
 function setName(password){
-    let isStop = false
-    let i = 0
-    while(!isStop){
-        if(i<passwordList.length){
-            if(passwordList[i].pass == encryptPassword2(password)){
-                name = passwordList[i].name
-                passwordListIndex = i
+    return new Promise((resolve, reject)=>{
+        let isStop = false
+        let i = 0
+        while(!isStop){
+            if(i<passwordList.length){
+                if(passwordList[i].pass == encryptPassword2(password)){
+                    name = passwordList[i].name
+                    passwordListIndex = i
+                }
+            }else{
+                isStop = true
+                resolve()
             }
-        }else{
-            isStop = true
+            i++
         }
-        i++
-    }
+    })
 }

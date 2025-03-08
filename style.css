@@ -145,3 +145,33 @@ body{
     font-size: 18px;
     padding-left: 10px;
 }
+@media screen and (max-width: 500px){
+    body{
+        font-size: 13px;
+    }
+    .title{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    #card{
+        padding: 20px;
+    }
+    .avtCard{
+        width: 60px;
+    }
+    .avt{
+        width: 80px;
+    }
+    .main__respond__name{
+        font-size: 18px;
+    }
+    .author{
+        margin-top: 5px;
+    }
+    #themeIcon{
+        font-size: 30px;
+    }
+    .choice{
+        margin: 10px 5px;
+    }
+}

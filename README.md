@@ -33,7 +33,13 @@ Nhìn cái "kim tự tháp" ngán thật :>
 Điều khiến cho dự án này tốn nhiều thời gian là do 8/3 rơi vào tuần thi giữa kì, điều này khiến cho mình không có đủ thời gian để hoàn thành dự án một cách chỉnh chu mặc dù bắt đầu làm trước đó 3 tuần. Với lại không hiểu sao tui bắt đầu suy nghĩ nhiều dẫn đến stress tạm thời (có lúc hay cáu) nên không có tâm trạng để code lắm (Đừng có hiểu lầm tui cáu là do làm web nha). Có lẽ động lực lớn nhất để tui cố làm cho xong là vì... à mà thôi... nói ra ngại lắm
 
 Đối với tui thì đây có lẽ là web tui dành nhiều thời gian để thiết kế nhất, vì tui đâu có làm để chơi, làm để tặng mà. Mặc dù phải thừa nhận là trình viết code cũng như cách tổ chức code còn non, nhưng mà cũng từ dự án này tui đã học được cách module hóa code cho dễ quản lí rồi, dùng các lệnh `export` với `import` nè. Hehe
+# Nhạc
+1. Tkien2 - Love For Nothing
+2. Swif7 - The Memory Of You
+Nhạc đầu tiên chill chill là do tui làm bằng Fl Studio Mobile, do lúc đó suy quá nên làm đại vậy mà cũng ổn phết. Ban đầu làm cho vui thôi, nhma thấy web chưa có nhạc nền chill nên cho vô luôn, hehe. Tổng cộng là dành 4h để làm, không nhiều.
 
+Bài thứ 2 thì tui nghe gần đây thôi, thấy hay nên cho vào =))))
+## Lời kết
 Thôi thì nhiêu đây cũng đủ rồi ha. Chúc bạn một ngày tốt lành.
 
 ```javascript

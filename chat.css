@@ -72,7 +72,7 @@
     padding: 10px 40px;
     margin: 10px;
     width: 400px;
-    max-width: 40vw;
+    max-width: calc(40vw - 55px);
     text-align: center;
     cursor: pointer;
     transition-duration: 0.2s;

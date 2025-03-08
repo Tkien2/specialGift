@@ -1,26 +1,31 @@
 :root{
     --blueGradient: linear-gradient(45deg, rgb(47, 170, 226), rgb(99, 223, 245));
-    --pinkGradient: linear-gradient(45deg, rgb(255, 72, 99), rgb(251, 126, 145));
-    --greenGradient: linear-gradient(45deg, rgb(65, 222, 104), rgb(77, 244, 177));
-
+    --redGradient: linear-gradient(45deg, rgb(245, 53, 75), rgb(250, 112, 128));
+    --blue2Gradient: linear-gradient(45deg, rgb(56, 242, 180), rgb(77, 182, 248));
+    --pinkGradient: linear-gradient(45deg, rgb(246, 79, 115), rgb(241, 142, 167));
 }
 .cardBox{
     display: none;
     z-index: 999;
-    min-height: 100vh;
     align-items: center;
     justify-content: center;
     position: absolute;
     left: 50vw;
     top: 50vh;
     transform: translate(-50%, -50%);
+    overflow: hidden;
+    max-width: 70vw;
 }
 #card{
-    background: var(--blueGradient);
+    background: var(--blue2Gradient);
     min-height: 300px;
-    min-width: 350px;
+    width: 350px;
     padding: 20px 30px;
-    color: white
+    color: white;
+    overflow: hidden;
+}
+.tile, .cardMessage{
+    z-index: 1000;
 }
 .title{
     text-align: center;
@@ -28,6 +33,7 @@
 }
 .cardMessage{
     color: rgb(255, 255, 255);
+    text-align:justify;
 }
 .author{
     display: flex;
@@ -56,4 +62,47 @@
         opacity: 1;
         top: 0;
     }
+}
+.dec{
+    border-radius: 200px;
+    position: absolute;
+    mix-blend-mode: color-dodge;
+    opacity: 0.4;
+    background: linear-gradient(90deg, rgb(241, 244, 252), rgba(45, 91, 99, 0));;
+    max-width: 45vw;
+    width: 300px;
+    height: 100px;
+}
+.dec1{
+    /* transform: rotate(100deg); */
+    top: 20px;
+    left: -50px;
+    width: 300px;
+    height: 50px;
+}
+.dec2{
+    bottom: -20px;
+    right: -80px;
+    height: 80px;
+}
+.dec3{
+    left: -50px;
+    bottom: 30px;
+    width: 180px;
+    height: 60px;
+}
+.dec4{
+    right: -100px;
+    top: 80px;
+    width: 230px;
+    height: 50px;
+}
+.github{
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+#githubIcon{
+    font-size: 30px;
 }

@@ -1,5 +1,6 @@
 import { smoothTrans, isDarkModeOn, themeLock, changeTheme, changeBackgroundColor, pinkMode, blueMode, redMode, greenMode } from "./theme.js";
-import { name } from "./script.js";
+import { name, passwordListIndex } from "./script.js";
+import { passwordList } from "./encryptPassword.js";
 let messageID = 0
 // Đm xử lí bất đồng bộ, ghét vc
 function getRespondFile(fileName, targetID){
@@ -108,7 +109,7 @@ function mainStory(){
         Tkien2Respond(2100, "Bà thừa biết hôm nay là ngày gì mà...", respondsList[5][0], respondsList[5][1])
     }
     else if(userRespond == respondsList[5][0] || userRespond == respondsList[5][1]){ //luôn đúng
-        setTimeout(surprisePart,1700)
+        setTimeout(surprisePart,2500)
     }
 }
 // Éo bt sao mình code được hội thoại, hay vc =))
@@ -177,6 +178,10 @@ function showListOfBigMessage(messageList, time){
     })
 }
 function showCard(){
+    const card = document.getElementById("card")
     document.getElementById("cardBox").style.display = "flex"
-    document.getElementById("card").classList.add("appear")
+    card.classList.add("appear")
+    card.style.background = `var(--${passwordList[passwordListIndex].color}Gradient)`
+    document.getElementById("cardMessage").innerHTML = passwordList[passwordListIndex].content
+    console.log(passwordList[passwordListIndex].color)
 }
