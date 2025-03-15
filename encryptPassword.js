@@ -29,19 +29,19 @@ export const passwordList = [
     pass: "MTQ2MzY=",
     name: "Thuý",
     color: "pink",
-    content: "Gửi Thuý<br><br>Nay 8/3 rồi nhỉ, do tui cũng không biết nên tặng cái gì nên quyết định làm web nho nhỏ như này để tặng. Tui chúc bà ngày càng học giỏi nè, bớt overthinking lại tí, nghĩ nhiều quá không tốt đâu :><br>Cái thiệp này tui lấy từ màu yêu thích hôm qua bà nói á, nhưng mà tui đổi màu tí :P<br>Web này tui định là để ở đây hoài luôn á, không có định đóng. Nên là mấy chục năm sau quay lại web này thì web vẫn còn nha, hehe.<br><br>Chúc Thuý 8/3 vui vẻ",
+    content: "Gửi Thuý<br><br>Nay 8/3 rồi nhỉ, do tui cũng không biết nên tặng cái gì nên quyết định làm web nho nhỏ như này để tặng. Tui chúc bà ngày càng học giỏi nè, bớt overthinking lại tí, nghĩ nhiều quá không tốt đâu. Chuyện học hành thì bà đừng có lo nhiều quá, miễn là bà còn cố gắng thì tốt lắm rồi.<br>Cái thiệp này tui lấy từ màu yêu thích hôm qua bà nói á, nhưng mà tui đổi màu tí :P<br>Thật ra thì web tui sẽ để ở đây, không xoá đâu.<br><br>Chúc Thuý 8/3 vui vẻ",
 },
 {
     pass: "MTM4MzA=",
     name: "Thư",
     color: "red",
-    content: "Gửi Thư<br><br>Nay 8/3 rồi nhỉ, do tui cũng không biết nên tặng cái gì nên quyết định làm web nho nhỏ như này để tặng bà nè. Tui nhớ bà thích màu đỏ hay gì á nên để thiệp đỏ đỏ luôn.<br>Không biết có ai tặng bà gì chưa nhma tui chúc bà ngày càng học giỏi, luôn vui vẻ và gặp nhiều may mắn, cây dù không hư :><br>Web này tui định là để ở đây hoài luôn á, không có định đóng. Nên là sau này quay lại web này thì web vẫn còn nha, hehe.<br><br>Chúc Thư 8/3 vui vẻ.",
+    content: "Gửi Thư<br><br>Nay 8/3 rồi nhỉ, do tui cũng không biết nên tặng cái gì nên quyết định làm web nho nhỏ như này để tặng bà nè. Tui nhớ bà thích màu đỏ hay gì á nên để thiệp đỏ đỏ luôn.<br>Không biết có ai tặng bà gì chưa nhma tui chúc bà ngày càng học giỏi, luôn vui vẻ, lạc quan, yêu đời và gặp nhiều may mắn.<br>Web này tui định là để ở đây hoài luôn á, không có định đóng. Nên là sau này quay lại web này thì web vẫn còn nha, hehe.<br><br>Chúc Thư 8/3 vui vẻ.",
 },
 {
     pass: "MTU1MzY=",
     name: "Trang",
     color: "blue",
-    content: "Gửi Trang<br><br>Mấy hôm trước hỏi thích màu gì không nói nên tui chọn đại một màu :)<br>Giữ đúng yêu cầu của bà là không mua đồ luôn nha, nhma không ăn được như bà nói thôi. Tui chúc bà ngày càng học giỏi, đậu tin học MOS, với lại ngày nào cũng vui vẻ, không quạu. <br>Web này tui định là để ở đây hoài luôn á, không có định đóng web đâu. Nên là mấy chục năm sau quay lại web này thì web vẫn còn nha, hehe.<br><br>Chúc Trang 8/3 vui vẻ.",
+    content: "Gửi Trang<br><br>Mấy hôm trước hỏi thích màu gì không nói nên tui chọn đại một màu :)<br>Giữ đúng yêu cầu của bà là không mua đồ luôn nha, nhma không ăn được như bà nói thôi. Tui chúc bà ngày càng học giỏi, đậu tin học MOS, với lại ngày nào cũng vui vẻ, không quạu. <br>Web này tui định là để ở đây hoài luôn á, không có định đóng web đâu.<br><br>Chúc Trang 8/3 vui vẻ.",
 },
 {
     pass: "MTQzNjY=",
